@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagen con Audio</title>
+    <style>
+        body {
+            background-color: #121212;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        img {
+            max-width: 80%;
+            max-height: 60vh;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+            margin-bottom: 20px;
+        }
+        audio {
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Aquí está tu imagen -->
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR2nxRhnxgG0sg26gasGxHycsz9ZNghsnRjDHqyzbIQtFsh22Wy0x806Ocg&s=10" alt="Imagen">
+
+    <!-- Aquí pones el link de tu archivo de audio (MP3) -->https://www.youtube.com/watch?v=xsvZOUnXdWM
+    <audio controls autoplay>
+        <source src="URL_DE_TU_AUDIO.mp3" type="audio/mpeg">
+        Tu navegador no soporta el elemento de audio.
+    </audio>
+
+</body>
+</html>
